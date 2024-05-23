@@ -1,6 +1,6 @@
 # RFCs
 
-This page houses RFCs for the TSC. To introduce a new RFC, open a [pull request](https://github.com/TBD54566975/technical-steering-committee/compare) which adds:
+This page houses Requests For Comments (RFCs) for the Technical Steering Committee (TSC). To introduce a new RFC, open a [pull request](https://github.com/TBD54566975/technical-steering-committee/compare) which adds:
 
 1. A new sub-directory (e.g. `rfc1`) to house:
   

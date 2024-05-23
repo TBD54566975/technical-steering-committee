@@ -6,7 +6,7 @@ The Request for Comments (RFC) process is intended to provide a consistent and c
 
 Each major decision starts as an RFC.  Everyone is invited to discuss the proposal and work towards a shared understanding of the tradeoffs.  After consensus-building among stakeholders for the RFC, the final decision to accept or reject an RFC is made by the Technical Steering Committee (TSC).  The responsibility of the TSC is to weigh the tradeoffs and to make a decision in light of the overall direction of the relevant specification or project.  Though sometimes arduous, this deliberation is the secret sauce for quality.
 
-This RFC defines the RFC Process itself.
+This RFC defines the RFC process itself.
 
 ## Motivation
 
@@ -140,7 +140,7 @@ If the RFC is not accepted, the author(s) can propose it again after addressing 
 
 Accepted RFCs will be marked as "Active" and a TSC member will be assigned as the Directly Responsible Individual (DRI) for overseeing the implementation of the RFC.  The DRI can delegate the implementation responsibilities to another individual or team. The RFC DRI will work with TBD Engineering Leads to prioritize and staff the implementation.
 
-Every accepted RFC has an associated issue tracking its implementation in the _____ repository; thus that associated issue can be assigned a priority via the triage process that the TBD Engineering team uses.  Community members who are interested in working on the implementation for an "active" RFC can volunteer by leaving a comment on the associated issue.
+Every accepted RFC has an associated issue tracking its implementation in its respective repository; thus that associated issue can be assigned a priority via the triage process that the TBD Engineering team uses.  Community members who are interested in working on the implementation for an "active" RFC can volunteer by leaving a comment on the associated issue.
 
 ### <ins>Maintaining RFCs</ins>
 
