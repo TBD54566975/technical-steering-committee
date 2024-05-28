@@ -1,4 +1,4 @@
-# RFC-0000 - RFC Process
+# RFC-0001 - RFC Process
 
 ## Summary
 
