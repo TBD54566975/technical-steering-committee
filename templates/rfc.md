@@ -53,7 +53,7 @@ here.
 Discuss prior art, both the good and the bad, in relation to this proposal.
 
 This section is intended to encourage you as an author to think about the lessons learned by others
-that attempted to tackle a similar problem and to inform readers of your RFC who may not know the
+that attempted to tackle a similar problem and inform readers of your RFC who may not know the
 history.
 
 If you searched and cannot find any prior art, include a note in this section.
@@ -63,11 +63,11 @@ If you searched and cannot find any prior art, include a note in this section.
 
 Optional, but suggested for first drafts.  Please consider:
 
-- What parts of the proposal do you expect to resolve through the RFC process before this gets
+* What parts of the proposal do you expect to resolve through the RFC process before this gets
   merged?
-- What parts of the proposal do you expect to resolve through implementation of this change before
-  stabilization?
-- What related issues do you consider out of scope for this RFC that could be addressed in the
+* What parts of the proposal do you expect to resolve through the implementation of this change
+  before stabilization?
+* What related issues do you consider out of scope for this RFC that could be addressed in the
   future independently of the solution that comes out of this RFC?
 
 # Future possibilities
@@ -75,10 +75,10 @@ Optional, but suggested for first drafts.  Please consider:
 
 Think about what the natural extension and evolution of your proposal would be and how it would
 affect the project as a whole. Try to use this section as a tool to more fully consider all possible
-interactions with the project in your proposal.  Also consider how this all fits into the roadmap
+interactions with the project in your proposal.  Also, consider how this all fits into the roadmap
 for the project.
 
-This is also a good place to "dump ideas", if they are out of scope for the RFC you are writing but
+This is also a good place to "dump ideas," if they are out of scope for the RFC you are writing but
 otherwise related.
 
 If you have tried and cannot think of any future possibilities, you may simply state that you cannot
