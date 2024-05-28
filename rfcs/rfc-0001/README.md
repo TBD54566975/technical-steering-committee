@@ -185,8 +185,8 @@ review meeting.
 5. The RFC DRI is expected to address feedback by either changing the RFC or by explaining
 
 6. At or before the next meeting, members review the feedback and:
-    * For Type 1 decision making: If there is no blocking feedback, the RFC is accepted
-    * For Type 2 decision making: If all members accept, the RFC is accepted
+    * For Type 1 decision making (irreversible, high-consequence): If all members accept, the RFC is accepted
+    * For Type 2 decision making (reversible, low-consequence): If there is no blocking feedback, the RFC is accepted
     * If the TSC reaches an impasse, the TSC lead will make the decision
 
 ### After the decision
