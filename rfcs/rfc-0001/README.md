@@ -137,8 +137,12 @@ To submit an RFC, authors should follow these steps:
 
 1. Fork the GitHub repository to which the RFC will be proposed.
 
-2. Copy [this RFC template](../../templates/rfc.md) to `rfcs/rfc-0000/README.md`. Don't assign an
-   RFC number yet.
+2. Create a new `0000-my-proposal` sub-directory under [rfcs/](../../rfcs/), replacing
+   "`my-proposal`" with a short, descriptive name.  This directory will contain the RFC text and all
+   associated resources (e.g., image files).
+
+3. Copy [this RFC template](../../templates/rfc.md) to `rfcs/0000-my-proposal/README.md`. Don't
+   assign an RFC number yet.
 
 3. Fill in the RFC.  Put care into the details: RFCs that do not present convincing motivation,
    demonstrate lack of understanding of the design's impact, or are disingenuous about the drawbacks
@@ -189,10 +193,11 @@ review meeting.
 
 If the RFC is not accepted, the author(s) can propose it again after addressing blocking feedback.
 
-Accepted RFCs will be marked as "Active" and the author be assigned as the Directly Responsible
-Individual (DRI) for overseeing the implementation of the RFC.  The DRI can delegate the
-implementation responsibilities to another individual or team. The RFC DRI will work with TBD
-Engineering Leads to prioritize and staff the implementation.
+Accepted RFCs will be marked as "Active", assigned the next available RFC number, and added to the
+[RFCs Index](../README.md).  The author becomes the Directly Responsible Individual (DRI) for
+overseeing the implementation of the RFC.  The DRI can delegate the implementation responsibilities
+to another individual or team. The RFC DRI will work with TBD Engineering Leads to prioritize and
+staff the implementation.
 
 Every accepted RFC has an associated issue tracking its implementation in its respective repository;
 thus that associated issue can be assigned a priority via the triage process that the TBD
