@@ -6,9 +6,9 @@ which adds:
 
 1. A new sub-directory (e.g. `rfc-0002`) to house:
   
-  a. A `README.md` with the RFC following the [RFC Template](../templates/rfc.md).
+  * A `README.md` with the RFC following the [RFC Template](../templates/rfc.md).
   
-  b. All other resources associated with the RFC (e.g. images).
+  * All other resources associated with the RFC (e.g. images).
 
 2. An entry to the table below to track accepted RFCs and their status.
 
