@@ -96,7 +96,7 @@ Counterpoint: This trades off giving more autonomy and flexibility to those clos
 
 ## Prior Art
 
-The proposed charter template was heavily influenced by the [W3C Charter Templateh](https://w3c.github.io/charter-drafts/charter-template.html) as well as the [DIF Charter Documents](https://github.com/decentralized-identity/org/tree/master/Org%20documents/WG%20documents).
+The proposed charter template was heavily influenced by the [W3C Charter Template](https://w3c.github.io/charter-drafts/charter-template.html) as well as the [DIF Charter Documents](https://github.com/decentralized-identity/org/tree/master/Org%20documents/WG%20documents).
 
 ## Unresolved Questions
 
