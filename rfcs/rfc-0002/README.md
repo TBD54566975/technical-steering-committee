@@ -18,13 +18,15 @@ In addition to the charter template below, we should adhere to the following pro
 
 * Charters should be as explicit as possible in describing deliverables and their acceptance criteria to promote a shared understanding of determining when a work item is to be considered complete.
 
-* Working Groups shall share updates through the TSC via the Working Group Directly Responsible Individual (DRI). Working Groups shall adhere to the TSC's recommendations on regular reviews (whether monthly, quarterly, or on another timeline).
+* Working Groups shall share updates through the TSC via the Working Group Directly Responsible Individual (DRI). The DRI also serves as a decision tie-breaker, should the situation arise.
+
+* Working Groups shall adhere to the TSC's recommendations on regular reviews (whether monthly, quarterly, or on another timeline).
 
 * Working Group shall ensure that all activities are well-documented: keeping meeting minutes, decision logs, and transparent progress reports, which can all be facilitated through GitHub.
 
 * Charters may be amended at any time through RFCs run through the TSC.
 
-* Favor extending/amending charters instead of creating new Working Groups. New Working Groups should be created for distinct work items that would benefit from being given extra focus, direction, and freedom (e.g. Web5 vs tbDEX).
+* Favor extending and amending charters instead of creating new Working Groups. New Working Groups should be created for distinct work items that would benefit from being given extra focus, direction, and freedom (e.g. Web5 vs tbDEX).
 
 ### Charter Template
 
@@ -88,8 +90,6 @@ Counterpoint: This trades off giving more autonomy and flexibility to those clos
 
 #### Alternative Approaches:
 
-**Ad Hoc Teams**: Instead of formal Working Groups, form ad hoc teams for specific tasks or projects. These teams can be more flexible and nimble, adapting quickly to changes without the need for formal charters.
-
 **Task Forces**: Establish task forces for urgent or high-priority initiatives. Task forces can have a narrow focus and short lifespan, providing a more agile approach to addressing specific issues.
 
 **Centralized Management**: Centralize the management of work items under the TSC. This could streamline processes and reduce the overhead associated with multiple Working Groups.
@@ -108,7 +108,9 @@ Similarly meetings/comms norms could be handled by each group, with common sugge
 
 2. Handling participation.
 
-Should we track who is participating in each working group? Or stick to a top level DRI for the Working Group and each of its deliverables? How do we handle changes over time?
+Should we track who is participating in each working group? Or stick to a top-level DRI for the Working Group and each of its deliverables? How do we handle changes over time?
+
+_Note: We have decided on a top-level DRI for the Working Group._
 
 3. Scope and Definitions.
 
