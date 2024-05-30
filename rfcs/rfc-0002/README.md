@@ -2,7 +2,7 @@
 
 ## Summary
 
-This RFC proposes both some suggestions on how to run Working Groups along with a template for Working Group charters to be used by the TSC to allow for the creation, and maintenance, of well-structured Working Groups. With this proposal, Working Groups are able to be formed with clear scopes-of-work, including work items with reasonable timelines, and accountability by assigning DRIs.
+This Request for Comment (RFC) proposes both some suggestions on how to run Working Groups along with a template for Working Group charters to be used by the Technical Steering Committee (TSC) to allow for the creation, and maintenance, of well-structured Working Groups. With this proposal, Working Groups are able to be formed with clear scopes-of-work, including work items with reasonable timelines, and accountability by assigning DRIs.
 
 ## Motivation
 
@@ -18,7 +18,7 @@ In addition to the charter template below, we should adhere to the following pro
 
 * Charters should be as explicit as possible in describing deliverables and their acceptance criteria to promote a shared understanding of determining when a work item is to be considered complete.
 
-* Working Groups shall share updates through the TSC via the Working Group DRI. Working Groups shall adhere to the TSC's recommendations on regular reviews (whether monthly, quarterly, or on another timeline).
+* Working Groups shall share updates through the TSC via the Working Group Directly Responsible Individual (DRI). Working Groups shall adhere to the TSC's recommendations on regular reviews (whether monthly, quarterly, or on another timeline).
 
 * Working Group shall ensure that all activities are well-documented: keeping meeting minutes, decision logs, and transparent progress reports, which can all be facilitated through GitHub.
 
@@ -46,7 +46,7 @@ What exactly is in scope and out of scope for the working group.
 ## Deliverables
 Enumeration of work products for the group. Be as detailed as possible. 
 
-Make sure to classify the deliverables accordingly (e.g. specification, SDK, research report, etc.). Assign DRIs for each deliverable as necessary. Deliverables should each have clera acceptance criteria" so we know how to measure their completeness.
+Make sure to classify the deliverables accordingly (e.g. specification, SDK, research report, etc.). Assign DRIs for each deliverable as necessary. Deliverables should each have clear "acceptance criteria" so we know how to measure their completeness.
 
 ### [Deliverable 1] – [Type]
 

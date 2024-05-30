@@ -18,7 +18,7 @@ What exactly is in scope and out of scope for the working group.
 
 Enumeration of work products for the group. Be as detailed as possible. 
 
-Make sure to classify the deliverables accordingly (e.g. specification, SDK, research report, etc.). Assign DRIs for each deliverable as necessary. Deliverables should each have clera acceptance criteria" so we know how to measure their completeness.
+Make sure to classify the deliverables accordingly (e.g. specification, SDK, research report, etc.). Assign DRIs for each deliverable as necessary. Deliverables should each have clear "acceptance criteria" so we know how to measure their completeness.
 
 ### [Deliverable 1] – [Type]
 
