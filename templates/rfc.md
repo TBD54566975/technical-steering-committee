@@ -47,7 +47,7 @@ here.
 * What other designs have been considered and what is the rationale for not choosing them?
 * What is the impact of not doing this?
 
-# Prior art
+## Prior art
 [prior-art]: #prior-art
 
 Discuss prior art, both the good and the bad, in relation to this proposal.
@@ -58,7 +58,7 @@ history.
 
 If you searched and cannot find any prior art, include a note in this section.
 
-# Unresolved questions
+## Unresolved questions
 [unresolved-questions]: #unresolved-questions
 
 Optional, but suggested for first drafts.  Please consider:
@@ -70,7 +70,7 @@ Optional, but suggested for first drafts.  Please consider:
 * What related issues do you consider out of scope for this RFC that could be addressed in the
   future independently of the solution that comes out of this RFC?
 
-# Future possibilities
+## Future possibilities
 [future-possibilities]: #future-possibilities
 
 Think about what the natural extension and evolution of your proposal would be and how it would
