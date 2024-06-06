@@ -118,7 +118,7 @@ Through this Working Group, we aim to continue building a robust and scalable fr
 
 2. **Web5 SDKs**
 
-        * Across the aforementioned languages, feature completeness in accordance with version 1.0 of the Web5 specification's feature set and API.
+	* Across the aforementioned languages, feature completeness in accordance with version 1.0 of the Web5 specification's feature set and API.
 
 	* Demonstrated interoperability via the Web5 specification test suite.
 
