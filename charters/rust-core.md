@@ -1,3 +1,7 @@
+> [!WARNING]
+> 🚧 should we split up web5 vs tbdex?
+> 🚧 DRI nominations
+
 # Rust Core Working Group Charter <!-- omit in toc -->
 
 **Start Date**: June 6th 2024
@@ -47,6 +51,31 @@ The Rust Core Working Group will make an intentional effort to prioritize matter
 The Rust Core Working Group is not concerned with the definitions of the web5 and tbdex specifications, both of which are the concerns of the respective Working Group. However, the Rust Core Working Group will offer valuable feedback mechanisms to the web5 and tbdex Working Groups and so although the web5 and tbdex specifications are not within the scope of this Working Group, a considerable amount of cross-Working Group collaboration is to be expected (see [Coordination](#coordination) and [Communication](#communication) below).
 
 The Rust Core Working Group codifies a standard API Design (🚧 link to APID deliverables 🚧) which is implemented across all supported language implementations (Rust, Kotlin and Swift), but any additional API features or design characteristics are not within the scope of this Working Group. Each implementation must support the standard API Design as a baseline implementation, but does not exclude the possibility of additional features.
+
+The Rust Core Working Group will codify itself across the following GitHub repos:
+
+🚧 TODO do we want to create new repos and name them "core" -- `web5-core` and `tbdex-core` 🚧
+
+- https://github.com/TBD54566975/web5-rs/
+- https://github.com/TBD54566975/tbdex-rs/
+
+The [`web5-rs` GitHub repository](https://github.com/TBD54566975/web5-rs/) will house the following resources:
+
+- [[Deliverable 1]: web5 API Design (APID)](🚧)
+- [[Deliverable 2]: web5 Rust Implementation](🚧)
+- [[Deliverable 3]: web5 UniFFI Binding](🚧)
+- [[Deliverable 4]: web5 Kotlin Implementation](🚧)
+- [[Deliverable 5]: web5 Swift Implementation](🚧)
+- RFCs for historical tracking of significant decisions
+
+The [`tbdex-rs` GitHub repository](https://github.com/TBD54566975/web5-rs/) will house the following resources:
+
+- [[Deliverable 6]: tbdex API Design (APID)](🚧)
+- [[Deliverable 7]: tbdex Rust Implementation](🚧)
+- [[Deliverable 8]: tbdex UniFFI Binding](🚧)
+- [[Deliverable 9]: tbdex Kotlin Implementation](🚧)
+- [[Deliverable 10]: tbdex Swift Implementation](🚧)
+- RFCs for historical tracking of significant decisions
 
 ## Deliverables
 
@@ -226,18 +255,31 @@ The Rust Core Working Group codifies a standard API Design (🚧 link to APID de
 
 ## Success Criteria
 
-How will we determine whether this group has achieved its objectives?
+The Rust Core Working Group will have achieved its objective if it delivers comprehensive implementations for the web5 and tbdex specifications, across Rust, Kotlin and Swift, as robust, extensible, performant, and secure artifacts for public consumption in highly available an reliable production environments.
 
 ## Coordination
 
-Will this group interact with other working groups? Other functions (Compliance, Legal, DevRel, OSPO, etc.). What resources will you require?
+The Rust Core Working Group will need to coordinate regularly with the web5 and tbdex Working Groups as a means of consuming the specification output of said Working Groups, and providing concrete feedback to said Working Groups which arises during implementation. The Rust Core Working Group will require the web5 and tbdex Working Groups to produce codified specification resources which enable implementation, and will provide concrete feedback in the form of meeting attendance, and the codified resources of open source development (Issue tickets, Pull Requests, comments, & RFCS).
 
----
+In order to coordinate with the web5 and tbdex Working Groups, the Rust Core Working Group will elect the following individuals to represent the Rust Core Working Group within the respective Working Groups:
 
-Representatives to attend web5 (???) and tbdex (Diane) Working Groups
+- web5: Kendall Weihe (🚧 Neal? 🚧)
+- tbdex Diane Huxley
+
+The above individuals will be required to participate in the respective Working Group and bridge the gap between consumption of said Working Groups Deliverables, and concrete feedback from implementation.
 
 ## Communication
 
-How will this group organize itself and its work (which GitHub repos, projects, communication channels, etc.)? 
+See [Scope](#scope) for description of GitHub repository makeup.
 
-How will progress be reviewed and reported to the TSC or other stakeholders? Include the frequency of reviews and the format of progress reports.
+All productive work for the Rust Core Working Group will occur out in the open, on GitHub, for anyone to participate in.
+
+The Rust Core Working Group will follow an RFC process, codified in the respective GitHub repository, for the matter of significant decision making, wherein Pull Requests will offer a place of communication among contributors to provide feedback.
+
+The Rust Core Working Group will organize weekly meetings to synchronously communicate and coordinate current affairs, and each meeting will be summarized via note taking which is codified and committed to the respective GitHub repository.
+
+🚧 do we need separate meetings for web5 vs tbdex? 🚧
+
+The DRI of the Rust Core Working Group will attend the regular Technical Steering Committee meetings and act as the representative for the ongoings from the Rust Core Working Group.
+
+As stated in [Coordination](#coordination), representatives from the Rust Core Working Group will attend the respective web5 and tbdex Working Group meetings to bridge the communication gap.
