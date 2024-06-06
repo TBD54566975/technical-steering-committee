@@ -18,16 +18,18 @@
 - [Motivation and Background](#motivation-and-background)
 - [Scope](#scope)
 - [Deliverables](#deliverables)
-  - [\[Deliverable 1\]: web5 API Design (APID)](#deliverable-1-web5-api-design-apid)
-  - [\[Deliverable 2\]: web5 Rust Implementation](#deliverable-2-web5-rust-implementation)
-  - [\[Deliverable 3\]: web5 UniFFI Binding](#deliverable-3-web5-uniffi-binding)
-  - [\[Deliverable 4\]: web5 Kotlin Implementation](#deliverable-4-web5-kotlin-implementation)
-  - [\[Deliverable 5\]: web5 Swift Implementation](#deliverable-5-web5-swift-implementation)
-  - [\[Deliverable 6\]: tbdex API Design (APID)](#deliverable-6-tbdex-api-design-apid)
-  - [\[Deliverable 7\]: tbdex Rust Implementation](#deliverable-7-tbdex-rust-implementation)
-  - [\[Deliverable 8\]: tbdex UniFFI Binding](#deliverable-8-tbdex-uniffi-binding)
-  - [\[Deliverable 9\]: tbdex Kotlin Implementation](#deliverable-9-tbdex-kotlin-implementation)
-  - [\[Deliverable 10\]: tbdex Swift Implementation](#deliverable-10-tbdex-swift-implementation)
+  - [web5](#web5)
+    - [\[Deliverable 1\]: web5 API Design (APID)](#deliverable-1-web5-api-design-apid)
+    - [\[Deliverable 2\]: web5 Rust Implementation](#deliverable-2-web5-rust-implementation)
+    - [\[Deliverable 3\]: web5 UniFFI Binding](#deliverable-3-web5-uniffi-binding)
+    - [\[Deliverable 4\]: web5 Kotlin Implementation](#deliverable-4-web5-kotlin-implementation)
+    - [\[Deliverable 5\]: web5 Swift Implementation](#deliverable-5-web5-swift-implementation)
+  - [tbdex](#tbdex)
+    - [\[Deliverable 6\]: tbdex API Design (APID)](#deliverable-6-tbdex-api-design-apid)
+    - [\[Deliverable 7\]: tbdex Rust Implementation](#deliverable-7-tbdex-rust-implementation)
+    - [\[Deliverable 8\]: tbdex UniFFI Binding](#deliverable-8-tbdex-uniffi-binding)
+    - [\[Deliverable 9\]: tbdex Kotlin Implementation](#deliverable-9-tbdex-kotlin-implementation)
+    - [\[Deliverable 10\]: tbdex Swift Implementation](#deliverable-10-tbdex-swift-implementation)
 - [Success Criteria](#success-criteria)
 - [Coordination](#coordination)
 - [Communication](#communication)
@@ -78,7 +80,9 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 ![Deliverables](./deliverables.png)
 
-### [Deliverable 1]: web5 API Design (APID)
+### web5
+
+#### [Deliverable 1]: web5 API Design (APID)
 
 **Description**: The *web5 APID* is a language-independent codified API Design which serves to act as a baseline of features for implementations. The APID is primarily considered to be a deliverable for internal usage, but does not exclude the possibility of external consumption.
 
@@ -96,7 +100,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Exit Criteria**: Comprehensive feature coverage for the web5 specification, codified in the Custom DSL, committed to source code.
 
-### [Deliverable 2]: web5 Rust Implementation
+#### [Deliverable 2]: web5 Rust Implementation
 
 **Description**: Rust implementation of the [[Deliverable 1]: web5 API Design (APID)](#deliverable-1-web5-api-design-apid), intended for public consumption.
 
@@ -113,7 +117,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Exit Criteria**: Full implementation of *Scope of Work* as a Rust project.
 
-### [Deliverable 3]: web5 UniFFI Binding
+#### [Deliverable 3]: web5 UniFFI Binding
 
 **Description**: Rust crate which utilizes [UniFFI](https://github.com/mozilla/uniffi-rs) in conjunction with the [[Deliverable 2]: web5 Rust Implementation](#deliverable-2-web5-rust-implementation) to create Kotlin and Swift binded code, which feed into [[Deliverable 4]: web5 Kotlin Implementation](#deliverable-4-web5-kotlin-implementation) and [[Deliverable 5]: web5 Swift Implementation](#deliverable-5-web5-swift-implementation). This deliverable is intended primarily for internal purposes but does not exclude the possibility of public consumption.
 
@@ -128,7 +132,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Exit Criteria**: Successful binding executions, over the comprehensive set of features from [[Deliverable 2]: web5 Rust Implementation](#deliverable-2-web5-rust-implementation), for Kotlin and Swift.
 
-### [Deliverable 4]: web5 Kotlin Implementation
+#### [Deliverable 4]: web5 Kotlin Implementation
 
 **Description**: Kotlin implementation of web5 by wrapping [[Deliverable 3]: web5 UniFFI Binding](#deliverable-3-web5-uniffi-binding) as to be conformant to the [[Deliverable 1]: web5 API Design (APID)](#deliverable-1-web5-api-design-apid), intended for public consumption.
 
@@ -146,7 +150,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Exit Criteria**: Full implementation of *Scope of Work* as a Kotlin project.
 
-### [Deliverable 5]: web5 Swift Implementation
+#### [Deliverable 5]: web5 Swift Implementation
 
 **Description**: Swift implementation of web5 by wrapping [[Deliverable 3]: web5 UniFFI Binding](#deliverable-3-web5-uniffi-binding) as to be conformant to the [[Deliverable 1]: web5 API Design (APID)](#deliverable-1-web5-api-design-apid), intended for public consumption.
 
@@ -164,7 +168,9 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Exit Criteria**: Full implementation of *Scope of Work* as a Swift project.
 
-### [Deliverable 6]: tbdex API Design (APID)
+### tbdex
+
+#### [Deliverable 6]: tbdex API Design (APID)
 
 **Description**: The *tbdex APID* is a language-independent codified API Design which serves to act as a baseline of features for implementations. The APID is primarily considered to be a deliverable for internal usage, but does not exclude the possibility of external consumption.
 
@@ -182,7 +188,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Exit Criteria**: Comprehensive feature coverage for the tbdex specification, codified in the Custom DSL, committed to source code.
 
-### [Deliverable 7]: tbdex Rust Implementation
+#### [Deliverable 7]: tbdex Rust Implementation
 
 **Description**: Rust implementation of the [[Deliverable 6]: tbdex API Design (APID)](#deliverable-6-tbdex-api-design-apid), intended for public consumption.
 
@@ -199,7 +205,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Exit Criteria**: Full implementation of *Scope of Work* as a Rust project.
 
-### [Deliverable 8]: tbdex UniFFI Binding
+#### [Deliverable 8]: tbdex UniFFI Binding
 
 **Description**: Rust crate which utilizes [UniFFI](https://github.com/mozilla/uniffi-rs) in conjunction with the [[Deliverable 7]: tbdex Rust Implementation](#deliverable-7-tbdex-rust-implementation) to create Kotlin and Swift binded code, which feed into [[Deliverable 9]: tbdex Kotlin Implementation](#deliverable-9-tbdex-kotlin-implementation) and [[Deliverable 10]: tbdex Swift Implementation](#deliverable-10-tbdex-swift-implementation). This deliverable is intended primarily for internal purposes but does not exclude the possibility of public consumption.
 
@@ -214,7 +220,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Exit Criteria**: Successful binding executions, over the comprehensive set of features from [[Deliverable 7]: tbdex Rust Implementation](#deliverable-7-tbdex-rust-implementation), for Kotlin and Swift.
 
-### [Deliverable 9]: tbdex Kotlin Implementation
+#### [Deliverable 9]: tbdex Kotlin Implementation
 
 **Description**: Kotlin implementation of tbdex by wrapping [[Deliverable 8]: tbdex UniFFI Binding](#deliverable-8-tbdex-uniffi-binding) as to be conformant to the [[Deliverable 6]: tbdex API Design (APID)](#deliverable-6-tbdex-api-design-apid), intended for public consumption.
 
@@ -232,7 +238,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Exit Criteria**: Full implementation of *Scope of Work* as a Kotlin project.
 
-### [Deliverable 10]: tbdex Swift Implementation
+#### [Deliverable 10]: tbdex Swift Implementation
 
 **Description**: Swift implementation of tbdex by wrapping [[Deliverable 8]: tbdex UniFFI Binding](#deliverable-8-tbdex-uniffi-binding) as to be conformant to the [[Deliverable 6]: tbdex API Design (APID)](#deliverable-6-tbdex-api-design-apid), intended for public consumption.
 
