@@ -117,8 +117,8 @@ Through this Working Group, we aim to continue building a robust and scalable fr
 	* A test suite demonstrating conformance for each test vector, demonstrating compatability across multiple implementations (via Web5 SDKs).
 
 2. **Web5 SDKs**
-`	
-	`	* Across the aforementioned languages, feature completeness in accordance with version 1.0 of the Web5 specification's feature set and API.
+
+        * Across the aforementioned languages, feature completeness in accordance with version 1.0 of the Web5 specification's feature set and API.
 
 	* Demonstrated interoperability via the Web5 specification test suite.
 
@@ -126,7 +126,7 @@ Through this Working Group, we aim to continue building a robust and scalable fr
 
 	* Successful implementation of tbDEX SDK Using the Web5 SDK against the v1.0 specification.
 
-3. **DID DHT**
+4. **DID DHT**
 
 	* A published v1.0 specification and registry with a Gateway API and client test vectors.
 
@@ -136,11 +136,11 @@ Through this Working Group, we aim to continue building a robust and scalable fr
 
 	* Complete test vector coverage via an automated test suite demonstrating multiple conformant implementations (via Web5 SDKs).
 
-4. **Decentralized Web Nodes (DWNs)**
+5. **Decentralized Web Nodes (DWNs)**
 
 	* Partners will be able to self-deploy Decentralized Web Nodes (DWNs) leveraging the DWN Server.
 
-5. **Identity Agent**
+6. **Identity Agent**
 
    * A publicly available and installable demo application, capable of providing an end-to-end experience, integrating features from the Web5 SDK and DWN projects to showcase the power and potential of Web5 technologies.
 
