@@ -1,10 +1,27 @@
-# Rust Core Working Group Charter
+# Rust Core Working Group Charter <!-- omit in toc -->
 
 **Start Date**: June 6th 2024
 
 **End Date**: Unknown
 
 **DRI**: Kendall Weihe
+
+- [Motivation and Background](#motivation-and-background)
+- [Scope](#scope)
+- [Deliverables](#deliverables)
+  - [\[Deliverable 1\]: web5 API Design (APID)](#deliverable-1-web5-api-design-apid)
+  - [\[Deliverable 2\]: web5 Rust Implementation](#deliverable-2-web5-rust-implementation)
+  - [\[Deliverable 3\]: web5 UniFFI Binding](#deliverable-3-web5-uniffi-binding)
+  - [\[Deliverable 4\]: web5 Kotlin Implementation](#deliverable-4-web5-kotlin-implementation)
+  - [\[Deliverable 5\]: web5 Swift Implementation](#deliverable-5-web5-swift-implementation)
+  - [\[Deliverable 6\]: tbdex API Design (APID)](#deliverable-6-tbdex-api-design-apid)
+  - [\[Deliverable 7\]: tbdex Rust Implementation](#deliverable-7-tbdex-rust-implementation)
+  - [\[Deliverable 8\]: tbdex UniFFI Binding](#deliverable-8-tbdex-uniffi-binding)
+  - [\[Deliverable 9\]: tbdex Kotlin Implementation](#deliverable-9-tbdex-kotlin-implementation)
+  - [\[Deliverable 10\]: tbdex Swift Implementation](#deliverable-10-tbdex-swift-implementation)
+- [Success Criteria](#success-criteria)
+- [Coordination](#coordination)
+- [Communication](#communication)
 
 ## Motivation and Background
 
