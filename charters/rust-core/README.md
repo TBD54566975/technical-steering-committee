@@ -1,12 +1,3 @@
-> [!WARNING]
-> 🚧 should we split up web5 vs tbdex?
-> 
-> 🚧 DRI nominations
->
-> 🚧 new repos and name them "core"?
->
-> 🚧 Timelines
-
 # Rust Core Working Group Charter <!-- omit in toc -->
 
 **Start Date**: June 6th 2024
@@ -192,7 +183,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Description**: Rust implementation of the [[Deliverable 6]: tbdex API Design (APID)](#deliverable-6-tbdex-api-design-apid), intended for public consumption.
 
-**DRI**: Diane Huxley (diehuxx).
+**DRI**: Diane Huxley (@diehuxx).
 
 **Scope of Work**:
 
@@ -267,7 +258,7 @@ The Rust Core Working Group will need to coordinate regularly with the web5 and 
 In order to coordinate with the web5 and tbdex Working Groups, the Rust Core Working Group will elect the following individuals to represent the Rust Core Working Group within the respective Working Groups:
 
 - web5: Neal Roessler (@nitro-neal)
-- tbdex: Diane Huxley (diehuxx)
+- tbdex: Diane Huxley (@diehuxx)
 
 The above individuals will be required to participate in the respective Working Group and bridge the gap between consumption of said Working Groups Deliverables, and concrete feedback.
 
