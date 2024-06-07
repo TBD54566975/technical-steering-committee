@@ -4,18 +4,18 @@
 
 **End Date**: Unknown
 
-**DRI**: Kendall Weihe (@KendallWeihe)
+**DRI**: [Kendall Weihe](https://github.com/KendallWeihe)
 
 - [Motivation and Background](#motivation-and-background)
 - [Scope](#scope)
 - [Deliverables](#deliverables)
-  - [Web5](#Web5)
+  - [Web5](#web5)
     - [\[Deliverable 1\]: Web5 API Design (APID)](#deliverable-1-web5-api-design-apid)
     - [\[Deliverable 2\]: Web5 Rust Implementation](#deliverable-2-web5-rust-implementation)
     - [\[Deliverable 3\]: Web5 UniFFI Binding](#deliverable-3-web5-uniffi-binding)
     - [\[Deliverable 4\]: Web5 Kotlin Implementation](#deliverable-4-web5-kotlin-implementation)
     - [\[Deliverable 5\]: Web5 Swift Implementation](#deliverable-5-web5-swift-implementation)
-  - [tbDEX](#tbDEX)
+  - [tbDEX](#tbdex)
     - [\[Deliverable 6\]: tbDEX API Design (APID)](#deliverable-6-tbdex-api-design-apid)
     - [\[Deliverable 7\]: tbDEX Rust Implementation](#deliverable-7-tbdex-rust-implementation)
     - [\[Deliverable 8\]: tbDEX UniFFI Binding](#deliverable-8-tbdex-uniffi-binding)
@@ -77,7 +77,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Description**: The *Web5 APID* is a language-independent codified API Design which serves to act as a baseline of features for implementations. The APID is primarily considered to be a deliverable for internal usage, but does not exclude the possibility of external consumption.
 
-**DRI**: Kendall Weihe (@KendallWeihe).
+**DRI**: [Kendall Weihe](https://github.com/KendallWeihe).
 
 **Scope of Work**:
 
@@ -95,7 +95,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Description**: Rust implementation of the [[Deliverable 1]: Web5 API Design (APID)](#deliverable-1-web5-api-design-apid), intended for public consumption.
 
-**DRI**: Kendall Weihe (@KendallWeihe).
+**DRI**: [Kendall Weihe](https://github.com/KendallWeihe).
 
 **Scope of Work**:
 
@@ -112,7 +112,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Description**: Rust crate which utilizes [UniFFI](https://github.com/mozilla/uniffi-rs) in conjunction with the [[Deliverable 2]: Web5 Rust Implementation](#deliverable-2-web5-rust-implementation) to create Kotlin and Swift binded code, which feed into [[Deliverable 4]: Web5 Kotlin Implementation](#deliverable-4-web5-kotlin-implementation) and [[Deliverable 5]: Web5 Swift Implementation](#deliverable-5-web5-swift-implementation). This deliverable is intended primarily for internal purposes but does not exclude the possibility of public consumption.
 
-**DRI**: Kendall Weihe (@KendallWeihe).
+**DRI**: [Kendall Weihe](https://github.com/KendallWeihe).
 
 **Scope of Work**:
 
@@ -127,7 +127,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Description**: Kotlin implementation of Web5 by wrapping [[Deliverable 3]: Web5 UniFFI Binding](#deliverable-3-web5-uniffi-binding) as to be conformant to the [[Deliverable 1]: Web5 API Design (APID)](#deliverable-1-web5-api-design-apid), intended for public consumption.
 
-**DRI**: Neal Roessler (@nitro-neal).
+**DRI**: [Neal Roessler](https://github.com/nitro-neal).
 
 **Scope of Work**:
 
@@ -145,7 +145,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Description**: Swift implementation of Web5 by wrapping [[Deliverable 3]: Web5 UniFFI Binding](#deliverable-3-web5-uniffi-binding) as to be conformant to the [[Deliverable 1]: Web5 API Design (APID)](#deliverable-1-web5-api-design-apid), intended for public consumption.
 
-**DRI**: Kirah Sapong (@kirahsapong).
+**DRI**: [Kirah Sapong](https://github.com/kirahsapong).
 
 **Scope of Work**:
 
@@ -165,7 +165,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Description**: The *tbDEX APID* is a language-independent codified API Design which serves to act as a baseline of features for implementations. The APID is primarily considered to be a deliverable for internal usage, but does not exclude the possibility of external consumption.
 
-**DRI**: Kendall Weihe (@KendallWeihe)
+**DRI**: [Kendall Weihe](https://github.com/KendallWeihe)
 
 **Scope of Work**:
 
@@ -183,7 +183,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Description**: Rust implementation of the [[Deliverable 6]: tbDEX API Design (APID)](#deliverable-6-tbdex-api-design-apid), intended for public consumption.
 
-**DRI**: Diane Huxley (@diehuxx).
+**DRI**: [Diane Huxley](https://github.com/diehuxx).
 
 **Scope of Work**:
 
@@ -200,7 +200,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Description**: Rust crate which utilizes [UniFFI](https://github.com/mozilla/uniffi-rs) in conjunction with the [[Deliverable 7]: tbDEX Rust Implementation](#deliverable-7-tbdex-rust-implementation) to create Kotlin and Swift binded code, which feed into [[Deliverable 9]: tbDEX Kotlin Implementation](#deliverable-9-tbdex-kotlin-implementation) and [[Deliverable 10]: tbDEX Swift Implementation](#deliverable-10-tbdex-swift-implementation). This deliverable is intended primarily for internal purposes but does not exclude the possibility of public consumption.
 
-**DRI**: Kendall Weihe (@KendallWeihe).
+**DRI**: [Kendall Weihe](https://github.com/KendallWeihe).
 
 **Scope of Work**:
 
@@ -215,7 +215,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Description**: Kotlin implementation of tbDEX by wrapping [[Deliverable 8]: tbDEX UniFFI Binding](#deliverable-8-tbdex-uniffi-binding) as to be conformant to the [[Deliverable 6]: tbDEX API Design (APID)](#deliverable-6-tbdex-api-design-apid), intended for public consumption.
 
-**DRI**: Neal Roessler (@nitro-neal).
+**DRI**: [Neal Roessler](https://github.com/nitro-neal).
 
 **Scope of Work**:
 
@@ -233,7 +233,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 **Description**: Swift implementation of tbDEX by wrapping [[Deliverable 8]: tbDEX UniFFI Binding](#deliverable-8-tbdex-uniffi-binding) as to be conformant to the [[Deliverable 6]: tbDEX API Design (APID)](#deliverable-6-tbdex-api-design-apid), intended for public consumption.
 
-**DRI**: Kirah Sapong (@kirahsapong).
+**DRI**: [Kirah Sapong](https://github.com/kirahsapong).
 
 **Scope of Work**:
 
@@ -257,8 +257,8 @@ The Rust Core Working Group will need to coordinate regularly with the Web5 and 
 
 In order to coordinate with the Web5 and tbDEX Working Groups, the Rust Core Working Group will elect the following individuals to represent the Rust Core Working Group within the respective Working Groups:
 
-- Web5: Neal Roessler (@nitro-neal)
-- tbDEX: Diane Huxley (@diehuxx)
+- Web5: [Neal Roessler](https://github.com/nitro-neal)
+- tbDEX: [Diane Huxley](https://github.com/diehuxx)
 
 The above individuals will be required to participate in the respective Working Group and bridge the gap between consumption of said Working Groups Deliverables, and concrete feedback.
 
