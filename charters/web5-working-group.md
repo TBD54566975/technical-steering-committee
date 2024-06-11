@@ -120,7 +120,7 @@ This group favors document-driven coordination, documenting communications and d
 
 * The Working Group will coordinate closely with the Rust Working Group for the uptake of a Rust Core throughout the Web5 SDKs.
 
-* The Working Group will coordinate with the DWeb Working Group specifically for interactions with the Web5 Spec and Web5-JS deliverables to maintain DWN capabilities.
+* The Working Group will accommodate the needs of the DWeb Working Group as a reliant customer of the SDKs, specs, and deliverables of this Working Group, with time and effort put in by this Working Group where necessary to address areas of overlap, interoperability, and technical continuity.
 
 Coordination will surface through the TSC, associated GitHub repositories, and communication tools (Slack, Discord).
 
