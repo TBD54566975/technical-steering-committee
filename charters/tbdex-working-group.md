@@ -15,7 +15,7 @@ This working group serves as a gathering place to discuss and improve the existi
 ## Scope
 
 * Discussing, defining and implementing the tbDEX protocol specification that will best suit the needs of those who are using it in the real world
-* Discussing how updates to Web5 libraries impact tbDEX, and coming up with ways to adjust the tbDEX API as needed, or influence Web5 API surfaces, if necessary
+* Discussing how updates to Web5 libraries impact tbDEX implementation, and coming up with ways to adjust the tbDEX API as needed, or influence Web5 API surfaces, if necessary
 * Discussing, defining and implementing transport specifications to send and receive tbDEX messages
 
 ## Deliverables
@@ -73,7 +73,7 @@ Description: Develop and maintain SDK implementations that conform to the tbDEX 
 ## Coordination
 This group favors document-driven coordination, documenting communications and decisions. The group will be facilitated via the Technical Steering Comittee and the set of repositories specific to each of the work items and deliverables listed above, making use of GitHub Issues and a common GitHub project for the entire Working Group's corpus.
 
-The Working Group will closely collaborate with the Web5 Working Group to ensure alignment and support for the tbDEX protocol and requirements. Similarly, the Working Group will coordinate closely with the Rust Working Group for the uptake of a Rust Core throughout the Web5 SDKs. Coordination will surface through the TSC, associated GitHub repositories, and communication tools (Slack, Discord).
+The Working Group will closely collaborate with the Web5 Working Group to ensure alignment and support for the tbDEX protocol and requirements. Similarly, the Working Group will coordinate closely with the Rust Working Group for the uptake of a Rust Core throughout the tbDEX SDKs. Coordination will surface through the TSC, associated GitHub repositories, and communication tools (Slack, Discord).
 
 
 ## Communication
