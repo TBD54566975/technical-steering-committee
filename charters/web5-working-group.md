@@ -1,6 +1,6 @@
 # Web5 Working Group Charter
 
-**Start Date**: June 7, 2024
+**Start Date**: June 14, 2024
 
 **End Date**: December 31, 2024 
 
@@ -20,7 +20,7 @@ TBD has been building Web5 (nearly) since its inception. Web5 is the foundationa
 
 A key driver for this initiative is tbDEX, a use case that exemplifies the potential of the Web5 technology stack. tbDEX leverages Web5 to enable secure, decentralized value exchanges without intermediaries. This project highlights the practical applications and benefits of Web5 technologies, serving as a proof of concept that will guide the development and adoption of similar decentralized applications.
 
-Through this Working Group, we aim to continue building a robust and scalable framework for Web5, providing developers with the tools they need to build innovative and secure decentralized applications.
+Through this Working Group, we aim to continue building a robust and scalable framework for Web5, providing developers with the tools they need to build innovative and secure decentralized applications. This Working Group will coordinate with related working groups that may break off to focus on specific components of Web5, or have dependencies on this group's work.
 
 ## Scope
 
@@ -32,7 +32,7 @@ Through this Working Group, we aim to continue building a robust and scalable fr
 
 * Conformance infrastructure such as test vectors, test suites to encourage compatible implementations across programming languages.
 
-* Enable the development of Decentralized Applications (dApps) using technologies such as Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs).
+* Enable the development of Decentralized Applications (dApps) and Protocols using technologies such as Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs).
 
 ## Deliverables
 
@@ -44,7 +44,7 @@ Through this Working Group, we aim to continue building a robust and scalable fr
 
 **Scope of Work**:
 
-* Specification of the digital identity standards we will implement (e.g. specific DID methods, verifiable credential data models, credential issuance protocols) along with specific implementation details (e.g. required features, minimal subsets, etc.).
+* Specification of the digital identity standards we will implement (e.g. specific DID methods, verifiable credential data models, credential issuance protocols, storage, etc.) along with specific implementation details (e.g. required features, minimal subsets, etc.).
 
 * An API used to interact with the digital identity standards we implement, able to be uptaken across Web5 SDKs.
 
@@ -66,6 +66,8 @@ Through this Working Group, we aim to continue building a robust and scalable fr
 
 * SDKs shall follow the guidance of the Rust Working Group in adopting a Rust core to limit developer overhead. 
 
+* The JS SDKs shall follow the guidance of the DWeb Working Group in maintaing compatability with Decentralized Web Nodes (DWNs).
+
 ### 3. DID DHT
 
 **Description**: Develop and maintain the DHT Decentralized Identifier method (did:dht).
@@ -81,32 +83,6 @@ Through this Working Group, we aim to continue building a robust and scalable fr
 * Develop and maintain a conformance testing suite for DID DHT clients, including test vectors and implementation reports.
 
 * Ensure conformant implementation of the DID DHT method across **Web5 SDK** implementations.
-
-### 4. Decentralized Web Nodes (DWNs)
-
-**Description**: Develop and maintain the Decentralized Web Node specification and associated implementations.
-
-**DRI**: [Daniel Buchner](https://github.com/csuwildcat)
-
-**Scope of Work**:
-
-* Build and maintain an SDK for Decentralized Web Nodes (DWN). This SDK will facilitate the integration of and interaction with DWNs, promoting decentralized data storage and management. To be built upon the work already in [web5-js](https://github.com/TBD54566975/web5-js).
-
-* Develop and maintain a DWN Server to allow anyone to host Decentralized Web Nodes easily and efficiently. This server will be crucial for the deployment and scaling of DWNs. To be built off the work in [dwn-sdk-js](https://github.com/TBD54566975/dwn-sdk-js).
-
-* Develop a demonstration of a web and mobile application (in conjunction with the subsequent work item) that integrates the deliverables above to showcase the capabilities and potential of Web5.
-
-### 5. Identity Agent
-
-**Description**: A mobile application (both iOS and Android) to manage users' DIDs, VCs, and permissions to DWNs. The Identity Agent App will provide a user-friendly interface for handling digital identities and credentials in a secure manner.
-
-**DRI**: [Tim Shamilov](https://github.com/shamilovtim)
-
-**Scope of Work**:
-
-* Develop and maintain a cross-platform mobile application that facilitates the management of DIDs, VCs, and permissions interfacing with DWNs.
-
-* Develop a demonstration of a web and mobile application (in conjunction with the subsequent work item) that integrates the deliverables above to showcase the capabilities and potential of Web5.
 
 ## Success Criteria
 
@@ -136,25 +112,21 @@ Through this Working Group, we aim to continue building a robust and scalable fr
 
 	* Complete test vector coverage via an automated test suite demonstrating multiple conformant implementations (via Web5 SDKs).
 
-5. **Decentralized Web Nodes (DWNs)**
-
-	* Partners will be able to self-deploy Decentralized Web Nodes (DWNs) leveraging the DWN Server.
-
-6. **Identity Agent**
-
-   * A publicly available and installable demo application, capable of providing an end-to-end experience, integrating features from the Web5 SDK and DWN projects to showcase the power and potential of Web5 technologies.
-
-   * Production of at least one recorded demonstration of an end-to-end experience using the demo application on both iOS and Android. 
-
 ## Coordination
 
 This group favors document-driven coordination, documenting communications and decisions. The group will be facilitated via the [Technical Steering Comittee](https://github.com/TBD54566975/technical-steering-committee) and the set of repositories specific to each of the work items and deliverables listed above, making use of GitHub Issues and a common GitHub project for the entire Working Group's corpus.
 
-The Working Group will closely collaborate with the tbDEX and Working Group to ensure alignment and support for the tbDEX protocol and requirements. Similarly, the Working Group will coordinate closely with the Rust Working Group for the uptake of a Rust Core throughout the Web5 SDKs. Coordination will surface through the TSC, associated GitHub repositories, and communication tools (Slack, Discord).
+* The Working Group will closely collaborate with the tbDEX Working Group to ensure alignment and support for the tbDEX protocol and requirements.
+
+* The Working Group will coordinate closely with the Rust Working Group for the uptake of a Rust Core throughout the Web5 SDKs.
+
+* The Working Group will coordinate with the DWeb Working Group specifically for interactions with the Web5 Spec and Web5-JS deliverables to maintain DWN capabilities.
+
+Coordination will surface through the TSC, associated GitHub repositories, and communication tools (Slack, Discord).
 
 ## Communication
 
-The working group will communicate primarily in a written manner via GitHub: filing issues and Requests for Comments (RFCs) directly to the respective GitHub repository (e.g. Web5-spec and Web5 SDKs, DID DHT, DWN Server, Identity Agent, etc.).
+The working group will communicate primarily in a written manner via GitHub: filing issues and Requests for Comments (RFCs) directly to the respective GitHub repository (e.g. Web5-spec and Web5 SDKs, DID DHT, etc.).
 
 The group will establish dedicated public and private communication channels as necessary (e.g., TBD Slack, TBD Discord) for real-time discussions and quick resolution of issues.
 
