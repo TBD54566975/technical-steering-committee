@@ -32,7 +32,7 @@ Through this Working Group, we aim to continue building a robust and scalable fr
 
 * Conformance infrastructure such as test vectors, test suites to encourage compatible implementations across programming languages.
 
-* Enable the development of Decentralized Applications (dApps) and Protocols using technologies such as Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs).
+* Enable the development of Decentralized Applications (dApps) and Protocols using technologies such as Decentralized Identifiers (DIDs), Verifiable Credentials (VCs), and Decentralized Web Nodes (DWNs).
 
 ## Deliverables
 
@@ -46,7 +46,7 @@ Through this Working Group, we aim to continue building a robust and scalable fr
 
 * Specification of the digital identity standards we will implement (e.g. specific DID methods, verifiable credential data models, credential issuance protocols, storage, etc.) along with specific implementation details (e.g. required features, minimal subsets, etc.).
 
-* An API used to interact with the digital identity standards we implement, able to be uptaken across Web5 SDKs.
+* An API design (OpenAPI specification) used to interact with the digital identity standards we implement, able to be uptaken across Web5 SDKs. Note: this API should be directly influenced by the API design work item from the Rust Working Group.
 
 * Test vectors from which conformance to each feature in the specification can be achieved.
 
