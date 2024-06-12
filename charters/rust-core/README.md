@@ -27,7 +27,7 @@
 
 ## Motivation and Background
 
-This working group will streamline and standardize the implementations of the open standards presented by the Web5 and tbDEX Working Groups.
+This working group will develop a conformant, secure, and maintainable implementation of the Web5 and tbDEX specifications by creating a Rust core SDK and providing language bindings.
 
 ![High-Level](./high-level.png)
 
