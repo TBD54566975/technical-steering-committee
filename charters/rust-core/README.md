@@ -2,7 +2,7 @@
 
 **Start Date**: June 6th 2024
 
-**End Date**: Unknown
+**End Date**: August 30, 2024
 
 **DRI**: [Kendall Weihe](https://github.com/KendallWeihe)
 
@@ -87,7 +87,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 - Doc comments for the API Design.
 - Test vector resources.
 
-**Timeline/Milestones**: Unknown???
+**Timeline/Milestones**: July 26, 2024
 
 **Exit Criteria**: Comprehensive feature coverage for the Web5 specification, codified in the Custom DSL, committed to source code.
 
@@ -104,7 +104,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 - Comprehensive documentation comments (from APID).
 - CI/CD implementations for security analysis, test automation, and crate publication.
 
-**Timeline/Milestones**: ???
+**Timeline/Milestones**: July 26, 2024
 
 **Exit Criteria**: Full implementation of *Scope of Work* as a Rust project.
 
@@ -119,7 +119,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 - UDL file with comprehensive feature coverage from [[Deliverable 2]: Web5 Rust Implementation](#deliverable-2-web5-rust-implementation).
 - Successful binding executions for Kotlin & Swift.
 
-**Timeline/Milestones**: ???
+**Timeline/Milestones**: July 26, 2024
 
 **Exit Criteria**: Successful binding executions, over the comprehensive set of features from [[Deliverable 2]: Web5 Rust Implementation](#deliverable-2-web5-rust-implementation), for Kotlin and Swift.
 
@@ -137,7 +137,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 - Comprehensive documentation comments (from APID).
 - CI/CD implementations for security analysis, test automation, and crate publication.
 
-**Timeline/Milestones**: ???
+**Timeline/Milestones**: July 26, 2024
 
 **Exit Criteria**: Full implementation of *Scope of Work* as a Kotlin project.
 
@@ -155,7 +155,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 - Comprehensive documentation comments (from APID).
 - CI/CD implementations for security analysis, test automation, and crate publication.
 
-**Timeline/Milestones**: ???
+**Timeline/Milestones**: August 30, 2024
 
 **Exit Criteria**: Full implementation of *Scope of Work* as a Swift project.
 
@@ -175,7 +175,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 - Doc comments for the API Design.
 - Test vector resources.
 
-**Timeline/Milestones**: Unknown???
+**Timeline/Milestones**: July 26, 2024
 
 **Exit Criteria**: Comprehensive feature coverage for the tbDEX specification, codified in the Custom DSL, committed to source code.
 
@@ -192,7 +192,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 - Comprehensive documentation comments (from APID).
 - CI/CD implementations for security analysis, test automation, and crate publication.
 
-**Timeline/Milestones**: ???
+**Timeline/Milestones**: July 26, 2024
 
 **Exit Criteria**: Full implementation of *Scope of Work* as a Rust project.
 
@@ -207,7 +207,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 - UDL file with comprehensive feature coverage from [[Deliverable 7]: tbDEX Rust Implementation](#deliverable-7-tbdex-rust-implementation).
 - Successful binding executions for Kotlin & Swift.
 
-**Timeline/Milestones**: ???
+**Timeline/Milestones**: July 26, 2024
 
 **Exit Criteria**: Successful binding executions, over the comprehensive set of features from [[Deliverable 7]: tbDEX Rust Implementation](#deliverable-7-tbdex-rust-implementation), for Kotlin and Swift.
 
@@ -225,7 +225,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 - Comprehensive documentation comments (from APID).
 - CI/CD implementations for security analysis, test automation, and crate publication.
 
-**Timeline/Milestones**: ???
+**Timeline/Milestones**: July 26, 2024
 
 **Exit Criteria**: Full implementation of *Scope of Work* as a Kotlin project.
 
@@ -243,7 +243,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 - Comprehensive documentation comments (from APID).
 - CI/CD implementations for security analysis, test automation, and crate publication.
 
-**Timeline/Milestones**: ???
+**Timeline/Milestones**: August 30, 2024
 
 **Exit Criteria**: Full implementation of *Scope of Work* as a Swift project.
 
