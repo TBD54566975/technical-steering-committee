@@ -255,7 +255,7 @@ The Rust Core Working Group will have achieved its objective if it delivers comp
 
 The Rust Core Working Group will need to coordinate regularly with the Web5 and tbDEX Working Groups as a means of consuming the specification output of said Working Groups, and providing concrete feedback to said Working Groups which arise during implementation. The Rust Core Working Group will require the Web5 and tbDEX Working Groups to produce codified specification resources which enable implementation, and will provide concrete feedback in the form of meeting attendance, and the codified resources of open source development (Issue tickets, Pull Requests, comments, & RFCs).
 
-In order to coordinate with the Web5 and tbDEX Working Groups, the Rust Core Working Group will elect the following individuals to represent the Rust Core Working Group within the respective Working Groups:
+In order to coordinate with the Web5 and tbDEX Working Groups, the Rust Core Working Group elects the following individuals to represent the Rust Core Working Group within the respective Working Groups:
 
 - Web5: [Neal Roessler](https://github.com/nitro-neal)
 - tbDEX: [Diane Huxley](https://github.com/diehuxx)
