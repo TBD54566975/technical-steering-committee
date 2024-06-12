@@ -249,7 +249,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 
 ## Success Criteria
 
-The Rust Core Working Group will have achieved its objective if it delivers comprehensive implementations for the Web5 and tbDEX specifications, across Rust, Kotlin and Swift, as robust, extensible, performant, and secure artifacts for public consumption in highly available an reliable production environments.
+The Rust Core Working Group will have achieved its objective if it delivers comprehensive implementations for the Web5 and tbDEX specifications, across Rust, Kotlin and Swift, as robust, extensible, performant, and secure artifacts for public consumption in highly available and reliable production environments.
 
 ## Coordination
 
