@@ -4,7 +4,7 @@
 
 **End Date**: December 31, 2024
 
-**DRI**: [Moe Jangda](https://github.com/mistermoe)
+**DRI**: [Moe Jangda](https://github.com/mistermoe), [Jiyoon Koo](https://github.com/jiyoontbd)
 
 ## Motivation and Background
 
@@ -26,21 +26,16 @@ Description: Develop and maintain the [tbDEX Protocol Specification](https://git
 #### Scope of Work:
 - Specification outlining types of messages and common traits in messages (structure, signature generation etc.) used by PFIs and Wallets to interact with each other to exchange value
 - Test vectors to achieve conformance across N implementations, if needed
+- Incorporate interoperability components that currently lives in [tbDEX Interop Profile Specification](https://github.com/TBD54566975/tbdex/tree/main/specs/interop) into the protocol specificiation
 
-### 2. tbDEX Transport Specification
+### 2. tbDEX HTTP API Specification
 Description: Develop and maintain the [tbDEX HTTP API Specification](https://github.com/TBD54566975/tbdex/tree/main/specs/http-api)
 
 #### Scope of Work:
-- Develop and maintain the [tbDEX HTTP API Specification](https://github.com/TBD54566975/tbdex/tree/main/specs/http-api), and additional transports in the future, outlining how to use various transports to send and receive tbDEX messages.
-  
-### 3. tbDEX Interoperability Specification
-Description: Develop and maintain the [tbDEX Interop Profile Specification](https://github.com/TBD54566975/tbdex/tree/main/specs/interop)
+- Develop and maintain the [tbDEX HTTP API Specification](https://github.com/TBD54566975/tbdex/tree/main/specs/http-api) outlining how to use various transports to send and receive tbDEX messages
 
-#### Scope of Work:
-- Develop and maintain the [tbDEX Interop Profile Specification](https://github.com/TBD54566975/tbdex/tree/main/specs/interop) outlining which sets of interoperability profiles tbDEX supports at 1) tbDEX messaging layer, 2) credential / VC exchange layer
-
-### 4. tbDEX SDKs
-Description: Develop and maintain SDK implementations that conform to the tbDEX protocol and transport specifications.
+### 3. tbDEX SDKs
+Description: Develop and maintain SDK implementations that conform to the tbDEX protocol and transport specifications
 
 #### Scope of Work:
 - SDKs in [Typescript](https://github.com/TBD54566975/tbdex-js), [Kotlin](https://github.com/TBD54566975/tbdex-kt), [Swift](https://github.com/TBD54566975/tbdex-swift), [Dart](https://github.com/TBD54566975/tbdex-dart), [Go](https://github.com/TBD54566975/tbdex-go), and [Rust](https://github.com/TBD54566975/tbdex-rs)
@@ -57,24 +52,21 @@ Description: Develop and maintain SDK implementations that conform to the tbDEX 
 - A published versioned specification
 - Test vectors to be consumed across multiple tbDEX SDK implementations
 
-### 2. tbDEX Transport Specification
+### 2. tbDEX HTTP API Specification
 - A published versioned specification
 
-### 3. tbDEX Interoperability Specification
-- A published versioned specification
-
-### 4. tbDEX SDKs
+### 3. tbDEX SDKs
 - Across the aforementioned languages, feature completeness in accordance with the latest version of the tbDEX protocol and transport(s) specification's feature set and API
 - Demonstrated interoperability via the tbDEX specifications' test suites
 
 ### Other goals
 - Implement versioning process for each specification (ideally it's the same process across all specifications)
+- Incorporate interoperability components that currently lives in [tbDEX Interop Profile Specification](https://github.com/TBD54566975/tbdex/tree/main/specs/interop) into the [tbDEX Protocol Specificiation](https://github.com/TBD54566975/tbdex/tree/main/specs/protocol)
 
 ## Coordination
 This group favors document-driven coordination, documenting communications and decisions. The group will be facilitated via the Technical Steering Comittee and the set of repositories specific to each of the work items and deliverables listed above, making use of GitHub Issues and a common GitHub project for the entire Working Group's corpus.
 
 The Working Group will closely collaborate with the Web5 Working Group to ensure alignment and support for the tbDEX protocol and requirements. Similarly, the Working Group will coordinate closely with the Rust Working Group for the uptake of a Rust Core throughout the tbDEX SDKs. Coordination will surface through the TSC, associated GitHub repositories, and communication tools (Slack, Discord).
-
 
 ## Communication
 The working group will communicate primarily in a written manner via GitHub: filing issues and Requests for Comments (RFCs) directly to the respective GitHub repository, primarily within the [tbDEX GitHub repository](https://github.com/TBD54566975/tbdex).
