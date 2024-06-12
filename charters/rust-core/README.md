@@ -172,7 +172,7 @@ The Rust Core Working Group will codify itself across the following GitHub repos
 - Custom DSL which is conceptually compatible with all target languages.
 - Codification of the API Design using the Custom DSL.
 - Example usages.
-- Doc comments inline for the API Design.
+- Doc comments for the API Design.
 - Test vector resources.
 
 **Timeline/Milestones**: Unknown???
