@@ -74,3 +74,6 @@ The working group will communicate primarily in a written manner via GitHub: fil
 The group will establish dedicated public and private communication channels as necessary (e.g., TBD Slack, TBD Discord) for real-time discussions and quick resolution of issues.
 
 The Working Group DRI will coordinate weekly updates for each of the group's work items, with the respective DRIs of each work item, to share with the TSC.
+
+## Decision making
+DRIs of the working group are responsible for facilitating discussions to come to a consensus when possible. When consensus cannot be reached, the working group DRIs are responsible for making a decision.
