@@ -4,28 +4,28 @@
 
 - Assign roles
 - Announcements
-    - Highlight any upcoming milestones that need our attention
+  - Highlight any upcoming milestones that need our attention
 - Agree on agenda
 - Agenda Item 1 (*DRI's Name*)
-    - **Goal**:  
-    - **Proposal**:  
-    - **Previous discussion**:  
+  - **Goal**:  
+  - **Proposal**:  
+  - **Previous discussion**:  
 - Call for clarifications
 
 ## Attendance
 
-Council: 
+TSC Members: 
 
 Observers: 
 
 ## Notes
 
 - Assign roles
-    - Facilitator: 
-    - Note taker: 
+  - Facilitator: 
+  - Note taker: 
 - Announcements
-    - notes
+  - notes
 - Agenda Item 1
-    - notes
+  - notes
 - Clarifications
-    - notes
+  - notes
